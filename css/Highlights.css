@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Halant:wght@500&display=swap');
+
+:root{
+    --heading:rgba(86, 43, 8, 1);
+    --subtitle:rgba(255, 143, 1, 1);
+    --parah:rgba(45, 52, 54, 1);
+}
+body{
+    font-family: 'Roboto',sans-serif;
+    font-weight:400;
+    font-size:1rem;
+    color:var(--parahcolor);
+}
+.navbar-brand{
+    margin-left:10%;
+}
+.collapse{
+    margin-right:7%;
+}
+.highlighttab{
+    background-color: var(--heading);
+}
+/* herosection */
+.herosection {
+    background-image: url(/public/images/highlightbg.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+.herosection h1{
+    color:white;
+    font-family: 'Halant', serif;
+    font-size:2.625rem;
+}
+
+/* highlightsection */
+
+.highlightsection h2{
+    color:var(--subtitle);
+    font-size: 1.375rem;
+
+}    
+.highlightsection h5{
+    color:var(--heading);
+    font-size: 2rem;
+
+}
+.highlightsection p{
+    color:var(--parahcolor);
+   
+}
+.highlightsection img{
+    border:1rem solid;
+}
+
+.highlightsection #trackingimg{
+ color: rgba(239, 239, 239, 1);
+
+}
+.highlightsection h4:after {
+    content: ""; 
+    display: block; 
+    margin: 0 auto; 
+    width: 30%; 
+    padding-top: 20px; 
+    border-bottom: 1px solid var(--subtitle);
+    border-width:thick;
+}
+
+.highlightsection img{
+    color: rgba(239, 239, 239, 1);
+    margin-left:6%;
+    margin-right:10%;
+}
+
+
+/* packagesection */
+
+.packagesection h2{
+    color:var(--headingcolor);
+    font-weight: 500;
+    font-family:2rem;
+}
+.packagesection h4{
+    font-size:1.25rem;
+    color:rgba(38, 17, 32, 1);
+    margin-bottom:0;
+}
+.packagesection h5{
+    color:var(--subtitle);
+    font-weight: 500;
+}
+.packagesection .card{
+    border-top-left-radius:0;
+border-top-right-radius:0;
+border-bottom-right-radius:0;
+border-bottom-left-radius:0;
+border:none;
+}
+.packagesection .card-img{
+    border-top-left-radius:0;
+    border-top-right-radius:0;
+    border-bottom-right-radius:0;
+    border-bottom-left-radius:0;
+}
+.packagesection .card-img-overlay img{
+    position: absolute;
+    margin-top:-1.7rem;
+    padding-left:38.5%;
+    padding-right:38%;
+    
+}
+.packagesection .card-img-overlay{
+    top:unset;
+    border-top-left-radius:0;
+    border-top-right-radius:0;
+    border-bottom-right-radius:0;
+    border-bottom-left-radius:0;
+    border:none;
+    background-image:linear-gradient(to left, rgba(248, 47, 1, 1),rgba(245, 245, 245, 0.84),rgba(193, 225, 17, 0.87))
+}
+.packagesection  .carousel-control-prev{
+width:4%;
+}
+.packagesection  .carousel-control-next{
+    width:4%;
+}
+.packagesection .carousel-control-prev-icon,.packagesection .carousel-control-next-icon {
+    background-color: rgba(193, 225, 17, 0.87);
+    border-radius: 50%;
+}
+.packagesection .packagebtn{
+    background-color:rgba(248, 47, 1, 1) ;
+    color:white;
+    border-top-left-radius:0;
+    border-top-right-radius:0;
+    border-bottom-right-radius:0;
+    border-bottom-left-radius:0;
+    border:none;
+    padding: 1% 2% ;
+    border: 1px solid transparent ;
+
+}
+.packagesection .packagebtn:hover{
+    background-color:white;
+    color:black;
+    border: 1px solid rgba(248, 47, 1, 1) ;
+}
+
+
+footer{
+    background-image: linear-gradient(to right,rgba(255, 143, 1, 1),rgba(86, 43, 8, 1));
+}
+footer h5{
+    font-size: 1.375rem;
+    font-weight: 100;
+}
+footer h5:after{
+    content: ""; 
+    display: block; 
+    width: 15%; 
+    padding-top: 20px; 
+    border-bottom: 1px solid white;
+}
